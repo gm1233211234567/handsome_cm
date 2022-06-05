@@ -1,0 +1,125 @@
+/*左侧图层样式及位置*/
+html, body, #viewDiv01 {
+      padding: 0;/*填充边距*/
+      margin: 0;/*边距*/
+      height: 100%;
+      width: 79.5%;
+    }
+
+/*右侧图层样式及位置*/
+#viewDiv02 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 50%;
+}
+
+/*底图样式设置*/
+.basemap{
+	margin: 10px;
+	/*优先级设置*/
+	z-index: 5;
+}
+
+/*控制底图设置窗口样式及位置*/
+
+
+#Layers{
+	color: dimgray;
+}
+
+
+.dropbtn1 {
+	position: absolute;
+	top: 10px;
+	left: -200px;
+	width: 75px;
+	height: 50px;
+	background-color: transparent;
+	color: black;
+	padding: 0;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;/*光标样式*/
+}
+
+.dropdown1 {
+	position: absolute;
+	display: inline-block;
+}
+
+.dropdown-content1{
+	display: none;
+	position: absolute;
+	top: 60px;
+	left: -200px;
+	background-color: #f9f9f9;
+	min-width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content1 div {
+	color: black;
+	padding: 0;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content1 div:hover {background-color: #f1f1f1}
+
+.dropdown1:hover .dropdown-content1 {
+	display: block;
+}
+
+.dropdown1:hover .dropbtn1 {
+	background-color: #3e8e41;
+}
+
+.dropbtn2 {
+	position: absolute;
+	top: 10px;
+	left: -300px;
+	width: 75px;
+	height: 50px;
+	background-color: transparent;
+	color: black;
+	padding: 0;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;/*光标样式*/
+}
+
+.dropdown2 {
+	position: absolute;
+	display: inline-block;
+}
+
+.dropdown-content2{
+	display: none;
+	position: absolute;
+	top: 60px;
+	left: -300px;
+	background-color: #f9f9f9;
+	min-width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content2 div {
+	color: black;
+	padding: 0;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content2 div:hover {background-color: #f1f1f1}
+
+.dropdown2:hover .dropdown-content2{
+	display: block;
+}
+
+.dropdown2:hover .dropbtn2 {
+	background-color: #3e8e41;
+}
